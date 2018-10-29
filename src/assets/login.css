@@ -1,0 +1,163 @@
+.login{
+    height: 100vh;
+
+    background: url(../image/bg.png);
+    background-size: 100%;
+}
+.line{
+    width: 100%;
+    height: .1rem;
+
+    border-bottom: 1px solid #e5e5e5;
+}
+.login_box{
+    box-sizing: border-box;
+    width: 6.65rem;
+    height: 6.23rem;
+    margin: 0 auto;
+    margin-top: 2.32rem;
+    padding-top: 1px;
+    padding-right: .8rem;
+    padding-left: .6rem;
+
+    background: #fff;
+}
+.head_img{
+    width: 1.64rem;
+    height: 1.64rem;
+    margin: 0 auto;
+    margin-top: -1.1rem;
+
+    border-radius: 50%;
+    background: #5dc56e;
+    box-shadow: 0 3px 2px 0 #7ed321;
+}
+.input_msg{
+    margin-top: 1.2rem;
+}
+.input_msg input{
+    font-size: .36rem;
+    line-height: .5rem;
+
+    width: 100%;
+    height: .5rem;
+    padding-left: 5px;
+
+    color: #9b9b9b;
+    border-bottom: 1px solid #979797;
+}
+.input_msg input:nth-child(1){
+    margin-bottom: .5rem;
+}
+.input_msg input:nth-child(2){
+    font-size: .36rem;
+    line-height: .5rem;
+
+    box-sizing: border-box;
+    width: 100%;
+    height: .5rem;
+    margin-bottom: .25rem;
+    padding-left: 5px;
+
+    color: #9b9b9b;
+    border-bottom: 1px solid #979797;
+}
+.verificate{
+    display: flex;
+
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: .5rem;
+    padding-bottom: .1rem;
+    padding-left: 5px;
+
+    border-bottom: 1px solid #979797;
+
+    justify-content: space-between;
+}
+.verificate input{
+    font-size: .36rem;
+    line-height: .5rem;
+
+    width: 60%;
+    height: .5rem;
+    margin-bottom: 0 !important;
+    padding: 0;
+
+    color: #9b9b9b;
+    border-bottom: none;
+}
+.verificate span{
+    font-size: .36rem;
+    line-height: .5rem;
+
+    height: .5rem;
+    padding-left: .2rem;
+
+    color: #9b9b9b;
+    border-left: 1px solid #979797;
+}
+.forgetOrRegister{
+    font-size: .24rem;
+    line-height: .33rem;
+
+    display: flex;
+
+    height: .33rem;
+    margin-bottom: .64rem;
+    padding: 0 5px;
+
+    justify-content: space-between;
+}
+.forgetOrRegister a{
+    font-size: .24rem;
+
+    color: #918989;
+}
+.confirm{
+    font-size: .36rem;
+    line-height: .97rem;
+
+    width: 3.8rem;
+    height: .97rem;
+    margin: 0 auto;
+
+    text-align: center;
+
+    color: #fff;
+    border-radius: .5rem;
+    background: #5dc56e;
+    box-shadow: 0 5px 4px 0 #b8f0e8;
+}
+.confirm:active{
+    opacity: .6;
+}
+#sending{
+    font-size: .26rem;
+
+    padding: 0 .1rem;
+
+    color: #353535;
+    border: 1px solid rgba(5,5,5,.10);
+    border-left: 0;
+    border-radius: .1rem;
+    background: #f8f8f8;
+}
+.step3{
+    text-align: center;
+}
+.step3 img{
+    display: inline-block;
+
+    width: 1.54rem;
+    height: 1.14rem;
+    margin-top: 1.27rem;
+    margin-bottom: .574rem;
+}
+.step3 p{
+    font-size: .48rem;
+
+    margin-bottom: .94rem;
+
+    color: #000;
+}
